@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анализ SMG | VOEVODA</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Rajdhani:wght@500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --deep-purple: #0f0524;
+            --neon-purple: #9d4edd;
+            --glow-purple: #c77dff;
+            --text-glow: 0 0 10px var(--glow-purple);
+        }
+        
+        body {
+            background: var(--deep-purple);
+            color: #e0a8ff;
+            font-family: 'Rajdhani', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .cyber-border {
+            height: 3px;
+            background: linear-gradient(90deg, transparent, var(--neon-purple), transparent);
+            margin: 30px 0;
+        }
+        
+        header {
+            text-align: center;
+            padding: 40px 20px;
+        }
+        
+        h1 {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 2.5em;
+            margin: 0;
+            text-shadow: var(--text-glow);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+        
+        .column {
+            flex: 1;
+            min-width: 300px;
+            padding: 20px;
+            background: rgba(25, 5, 50, 0.5);
+            border-radius: 5px;
+            box-shadow: 0 0 15px rgba(157, 78, 221, 0.3);
+        }
+        
+        h2 {
+            font-family: 'Orbitron', sans-serif;
+            color: var(--glow-purple);
+            text-shadow: 0 0 5px var(--neon-purple);
+            border-bottom: 1px solid var(--neon-purple);
+            padding-bottom: 10px;
+        }
+        
+        .screenshot {
+            margin: 20px 0;
+            border: 1px solid var(--neon-purple);
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(157, 78, 221, 0.5);
+            max-width: 100%;
+        }
+        
+        ul {
+            padding-left: 20px;
+        }
+        
+        li {
+            margin-bottom: 10px;
+            position: relative;
+        }
+        
+        .minus li::before {
+            content: "✖";
+            color: #ff4d4d;
+            margin-right: 8px;
+        }
+        
+        .plus li::before {
+            content: "✓";
+            color: #4dff4d;
+            margin-right: 8px;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 30px;
+            margin-top: 50px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>АНАЛИЗ КЛАНА SMG</h1>
+        <div class="cyber-border"></div>
+        <p>Объективная оценка от разведки VOEVODA</p>
+    </header>
+    
+    <div class="container">
+        <div class="column minus">
+            <h2>МИНУСЫ</h2>
+            <ul>
+                <li>Плохое отношение в клане</li>
+                <li>Постоянные оскорбления как со стороны главы, так и сокланов</li>
+                <li>Слабость клана</li>
+                <li>Состав довольно плохой</li>
+                <li>Урона от них ждать не надо</li>
+            </ul>
+            
+            <h3>Доказательства:</h3>
+            <img src="Правда-О-СМГ.png" alt="Чат SMG" class="screenshot">
+            <p>Оскорбления и неуважительное общение между членами клана</p>
+            
+            <img src="Правда-о-смгг.png" alt="Чат SMG 2" class="screenshot">
+            <p>Жалобы на несправедливые предупреждения</p>
+            
+            <img src="ап.png" alt="Чат SMG 3" class="screenshot">
+            <p>Критика лидера клана от собственных членов</p>
+        </div>
+        
+        <div class="column plus">
+            <h2>ПЛЮСЫ</h2>
+            <ul>
+                <li>Частые розыгрыши в клане (Донат и Робуксы)</li>
+                <li>Клан находится в ТОПЕ МИРА и имеет большой потенциал</li>
+                <li>Довольно неплохой онлайн</li>
+            </ul>
+            
+            <h3>Доказательства:</h3>
+            <img src="2025-06-28_213901.png" alt="Розыгрыш в SMG" class="screenshot">
+            <p>Организация розыгрышей для членов клана</p>
+            
+            <div style="background: rgba(157, 78, 221, 0.2); padding: 15px; border-radius: 5px; margin-top: 20px;">
+                <h3>Вывод:</h3>
+                <p>Несмотря на материальные поощрения, психологическая атмосфера в клане оставляет желать лучшего. Высокий рейтинг не компенсирует токсичную среду.</p>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="cyber-border"></div>
+        <p>© 2025 Разведотдел VOEVODA | Все данные проверены</p>
+    </footer>
+</body>
+</html>
